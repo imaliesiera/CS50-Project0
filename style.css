@@ -1,6 +1,18 @@
+/*Global styles
+-------------------------------------------*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
 /*index.html2 styles
 -------------------------------------------*/
-
+.form-wrap{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
