@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <nav>
-         <a class="nav-link" href="./index.html"
-            >Google Search</a
-          >
-          <a class="nav-link" href="./index3.html">Google Advanced Search</a>
-          
-    </nav>
-    <body>
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <nav>
+    <a class="nav-link" href="./index.html">Google Search</a>
+    <a class="nav-link" href="./index3.html">Google Advanced Search</a>
+  </nav>
+  <body>
+    <div class="content-wrapper">
+      <div>
+        <img
+          src="./images/googlelogo_color_272x92dp.png"
+          alt="Google Logo"
+          class="logo"
+        />
+      </div>
+      <form action="https://images.google.com/">
         <div>
-           <img src="./images/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+            <input type="text" name="q" />
         </div>
-        <form action="https://images.google.com/">
-            <input type="text" name="q">
-            <input type="submit" value="Google Image Search">
-        </form>
-    </body>
+        <div>
+            <input type="submit" value="Google Image Search" />
+        </div>
+      </form>
+    </div>
+  </body>
 </html>

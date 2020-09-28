@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <nav>
          <a class="nav-link" href="./index.html"
@@ -11,12 +12,18 @@
           
     </nav>
     <body>
-        <div>
-            <img src="./images/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+        <div class="content-wrapper">
+            <div>
+                <img src="./images/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+            </div>
+            <form action="https://www.google.com/advanced_search"">
+                <div>
+                    <input type="text" name="q">
+                </div>
+                <div>
+                    <input type="submit" value="Google Advanced Search">
+                </div>
+            </form>
         </div>
-        <form action="https://www.google.com/advanced_search"">
-            <input type="text" name="q">
-            <input type="submit" value="Google Advanced Search">
-        </form>
     </body>
 </html>
