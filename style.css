@@ -5,8 +5,17 @@ nav{
     flex-direction: row;
     justify-content: flex-end;
 }
-
-
+.logo{
+    height: 100px;
+}
+.content-wrapper{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+  margin: 0;
+}
 /*index.html2 styles
 -------------------------------------------*/
 .form-wrap{
