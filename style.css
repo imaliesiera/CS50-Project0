@@ -9,13 +9,14 @@ nav{
     height: 100px;
 }
 .content-wrapper{
-  height: 10em;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center; 
   flex-direction: column;
   margin: 0;
 }
+
 /*index.html2 styles
 -------------------------------------------*/
 .form-wrap{
