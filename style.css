@@ -16,7 +16,14 @@ nav{
   flex-direction: column;
   margin: 0;
 }
+.search-bar{
+   border-radius: 30px;
+   width: 500px;
+   border: solid 1px rgb(150, 150, 150);
+   line-height: 3;
+   align-items: center;
 
+}
 /*index.html2 styles
 -------------------------------------------*/
 .form-wrap{
