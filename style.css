@@ -18,10 +18,15 @@ nav {
 }
 .search-bar {
   border-radius: 30px;
-  width: 500px;
-  border: solid 1px rgb(150, 150, 150);
+  width: 400px;
+  border: solid 1px rgb(212, 212, 212);
   line-height: 3;
   align-items: center;
+  padding: 0 60px 0 60px;
+}
+
+input:focus{
+     outline: none;
 }
 /*index.html styles
 -------------------------------------------*/
@@ -35,15 +40,38 @@ nav {
 .searchbar-wrap .mic-icon {
     position: relative;
     width: 12px;
-    right: 70px;
-    pointer-events: none;
+    right: 60px;
+    height: 20px;
+    z-index: 100;
+    top: 5px;
+    color: gainsboro;
 }
 .searchbar-wrap .search-icon{
     position: relative;
     width: 12px;
-    right: 490px;
-    
+    right: 510px;
+    height: 20px;
+    z-index: 100;
+    top: 5px;
+    color: gainsboro;
+}   
+.search-button{
+    color: grey;
+    margin-right: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+.lucky-button{
+     color: grey;
+    margin-left: 5px;
+     width: 130px;
+     height: 40px;
+     background-color: rgb(236, 236, 236);
+    border: none;
 
+}
 /*index.html2 styles
 -------------------------------------------*/
 

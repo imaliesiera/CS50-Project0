@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Search</title>
+    <title>Google</title>
     <link rel="stylesheet" href="style.css" />
     <style>
       @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
@@ -22,13 +22,14 @@
       </div>
       <form action="https://google.com/search">
         <div class="searchbar-wrap">
-          <input type="text" name="q" class="search-bar" />
+          <input type="text" name="q" class="search-bar"  autocomplete="off"/>
           <img role="img" src="./images/search-solid.svg" class="search-icon" />
-          <img
-            role="img"
+          <a href="#">
+            <img
+            alt="microphone"
             src="./images/microphone-solid.svg"
-            class="mic-icon"
-          />
+            class="mic-icon">
+          </a>
         </div>
         <div class="form-wrap">
           <div>
@@ -36,7 +37,7 @@
           </div>
           <div class>
             <form action="https://www.google.com/doodles/">
-              <input type="submit" value="I'm Feeling Lucky" class="lucky button"/>
+              <input type="submit" value="I'm Feeling Lucky" class="lucky-button"/>
             </form>
           </div>
         </div>
