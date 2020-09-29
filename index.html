@@ -3,6 +3,9 @@
   <head>
     <title>Search</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+    </style>
   </head>
   <nav>
     <a class="nav-link" href="/index2.html">Images</a>
@@ -18,14 +21,22 @@
         />
       </div>
       <form action="https://google.com/search">
-        <input type="text" name="q" class="search-bar"/>
+        <div class="searchbar-wrap">
+          <input type="text" name="q" class="search-bar" />
+          <img role="img" src="./images/search-solid.svg" class="search-icon" />
+          <img
+            role="img"
+            src="./images/microphone-solid.svg"
+            class="mic-icon"
+          />
+        </div>
         <div class="form-wrap">
           <div>
-            <input type="submit" value="Google Search" />
+            <input type="submit" value="Google Search" class="search-button" />
           </div>
-          <div class="button">
+          <div class>
             <form action="https://www.google.com/doodles/">
-              <input type="submit" value="I'm Feeling Lucky" />
+              <input type="submit" value="I'm Feeling Lucky" class="lucky button"/>
             </form>
           </div>
         </div>
