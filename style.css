@@ -75,6 +75,9 @@ input:focus{
     background-color: rgb(236, 236, 236);
     border: none;
 }
+.search-button:hover{
+    border: solid 1px rgb(196, 190, 190);
+}
 .lucky-button{
      color: grey;
     margin-left: 5px;
@@ -82,7 +85,9 @@ input:focus{
      height: 40px;
      background-color: rgb(236, 236, 236);
     border: none;
-
+}
+.lucky-button:hover{
+    border: solid 1px rgb(196, 190, 190);
 }
 /*index.html2 styles
 -------------------------------------------*/
