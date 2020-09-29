@@ -91,7 +91,20 @@ input:focus{
 }
 /*index.html2 styles
 -------------------------------------------*/
-
-
+.logo-name{
+    position: relative;
+    left: 250px;
+    color: rgb(24, 150, 253);
+    top: -25px;
+}
+.search-icon2{
+    position: relative;
+    width: 12px;
+    right: 510px;
+    height: 20px;
+    z-index: 100;
+    top: 5px;
+    color: gainsboro;
+}   
 /*index.html3 styles
 -------------------------------------------*/
