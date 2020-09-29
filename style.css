@@ -5,6 +5,18 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
 }
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+
 .logo {
   height: 100px;
 }
