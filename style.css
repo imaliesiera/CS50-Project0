@@ -31,6 +31,9 @@ nav a {
 input:focus {
   outline: none;
 }
+.fa-microphone{
+    color: rgb(141, 141, 141);
+}
 /*index.html styles
 -------------------------------------------*/
 .search-bar {
@@ -48,23 +51,14 @@ input:focus {
   margin-top: 30px;
 }
 
-.fa-microphone {
+.mic-icon1{
   position: relative;
   width: 12px;
   left: 490px;
   height: 20px;
   z-index: 100;
   top: -30px;
-  color: rgb(141, 141, 141);
-}
-.fa-search {
-  position: relative;
-  width: 12px;
-  right: 510px;
-  height: 20px;
-  z-index: 100;
-  top: 3px;
-  color: rgb(141, 141, 141);
+  
 }
 .search-button {
   color: grey;
@@ -133,14 +127,15 @@ input:focus {
   top: 5px;
   color: gainsboro;
 }
-.search-icon3 {
-  position: relative;
-  width: 20px;
-  right: 110px;
-  height: 20px;
-  z-index: 100;
-  top: 5px;
-  color: gainsboro;
+.icons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 20px;
+    left: 490px;
+    height: 20px;
+    top: -30px;
 }
+
 /*index.html3 styles
 -------------------------------------------*/
