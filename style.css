@@ -174,19 +174,38 @@ nav img{
     width: 90px;
     margin: 10px;
 }
+.content-wrap2{
+    margin: 0 3% 0 3%;
+}
 h3{
     color: rgb(202, 44, 44);
     margin-left: 3%;
     font-size: 20px;
 }
 .h3-div{
-    border-bottom: solid 1px rgb(228, 228, 228);;
+    border-bottom: solid 1px rgb(209, 209, 209);
 }
-.input-wrap{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2%;
+table{
+    padding-top: 30px;
 }
-.input-value{
-    margin-left: 10%;
+.table-input{
+    width: 550px;
+    line-height: 20px;
+    
+}
+.third-column{
+    font-size: 10px;
+    padding-left: 20px;
+}
+.first-column{
+    font-size: 13px;
+    padding-right: 30px;
+}
+th{
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+td{
+    padding-bottom: 15px;
 }
