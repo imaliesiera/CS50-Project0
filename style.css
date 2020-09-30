@@ -5,17 +5,16 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
 }
-nav a{
-    text-decoration: none;
-    color: black;
-    padding-right: 15px;
-    padding-top: 10px;
-    font-size: 15px;
+nav a {
+  text-decoration: none;
+  color: black;
+  padding-right: 15px;
+  padding-top: 10px;
+  font-size: 15px;
 }
-.nav-link:hover{
-    text-decoration: underline;
+.nav-link:hover {
+  text-decoration: underline;
 }
-
 
 .logo {
   height: 100px;
@@ -28,6 +27,12 @@ nav a{
   flex-direction: column;
   margin: 0;
 }
+
+input:focus {
+  outline: none;
+}
+/*index.html styles
+-------------------------------------------*/
 .search-bar {
   border-radius: 30px;
   width: 400px;
@@ -36,12 +41,6 @@ nav a{
   align-items: center;
   padding: 0 60px 0 60px;
 }
-
-input:focus{
-     outline: none;
-}
-/*index.html styles
--------------------------------------------*/
 .form-wrap {
   display: flex;
   flex-direction: row;
@@ -49,63 +48,99 @@ input:focus{
   margin-top: 30px;
 }
 
-.searchbar-wrap .mic-icon {
-    position: relative;
-    width: 12px;
-    right: 60px;
-    height: 20px;
-    z-index: 100;
-    top: 5px;
-    color: gainsboro;
+.fa-microphone {
+  position: relative;
+  width: 12px;
+  left: 490px;
+  height: 20px;
+  z-index: 100;
+  top: -30px;
+  color: rgb(141, 141, 141);
 }
-.searchbar-wrap .search-icon{
-    position: relative;
-    width: 12px;
-    right: 510px;
-    height: 20px;
-    z-index: 100;
-    top: 5px;
-    color: gainsboro;
-}   
-.search-button{
-    color: grey;
-    margin-right: 5px;
-    width: 120px;
-    height: 40px;
-    background-color: rgb(236, 236, 236);
-    border: none;
+.fa-search {
+  position: relative;
+  width: 12px;
+  right: 510px;
+  height: 20px;
+  z-index: 100;
+  top: 3px;
+  color: rgb(141, 141, 141);
 }
-.search-button:hover{
-    border: solid 1px rgb(196, 190, 190);
+.search-button {
+  color: grey;
+  margin-right: 5px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(236, 236, 236);
+  border: none;
 }
-.lucky-button{
-     color: grey;
-    margin-left: 5px;
-     width: 130px;
-     height: 40px;
-     background-color: rgb(236, 236, 236);
-    border: none;
+.search-button:hover {
+  border: solid 1px rgb(196, 190, 190);
 }
-.lucky-button:hover{
-    border: solid 1px rgb(196, 190, 190);
+.lucky-button {
+  color: grey;
+  margin-left: 5px;
+  width: 130px;
+  height: 40px;
+  background-color: rgb(236, 236, 236);
+  border: none;
+}
+.lucky-button:hover {
+  border: solid 1px rgb(196, 190, 190);
 }
 /*index.html2 styles
 -------------------------------------------*/
-.logo-name{
-    position: relative;
-    left: 250px;
-    color: rgb(24, 150, 253);
-    top: -25px;
+.search-bar2 {
+  border-radius: 30px;
+  width: 400px;
+  border: solid 1px rgb(212, 212, 212);
+  line-height: 3;
+  align-items: center;
+  padding: 0 60px 0 60px;
+  margin-left: 50px;
 }
-.search-icon2{
-    position: relative;
-    width: 12px;
-    right: 510px;
-    height: 20px;
-    z-index: 100;
-    top: 5px;
-    color: gainsboro;
-}   
+.logo-name {
+  position: relative;
+  left: 250px;
+  color: rgba(18, 130, 221, 0.61);
+  top: -25px;
+}
+.search-icon2 {
+  position: relative;
+  width: 14px;
+  right: 490px;
+  height: 20px;
+  z-index: 100;
+  top: 5px;
+  color: gainsboro;
+}
+.mic-icon2 {
+  position: relative;
+  width: 12px;
+  right: 130px;
+  height: 20px;
+  z-index: 100;
+  top: 5px;
+  color: gainsboro;
+}
 
+.camera-icon {
+  position: relative;
+  width: 25px;
+  right: 150px;
+  height: 20px;
+  z-index: 100;
+  top: 5px;
+  color: gainsboro;
+}
+.search-icon3 {
+  position: relative;
+  width: 20px;
+  right: 110px;
+  height: 20px;
+  z-index: 100;
+  top: 5px;
+  color: gainsboro;
+}
 /*index.html3 styles
 -------------------------------------------*/
