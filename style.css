@@ -86,23 +86,23 @@ input:focus {
 -------------------------------------------*/
 .search-bar2 {
   border-radius: 30px;
-  width: 400px;
+  width: 480px;
   border: solid 1px rgb(212, 212, 212);
   line-height: 3;
   align-items: center;
-  padding: 0 60px 0 60px;
+  padding: 0 30px 0 30px;
   margin-left: 50px;
 }
 .logo-name {
   position: relative;
   left: 250px;
-  color: rgba(18, 130, 221, 0.61);
+  color: rgba(45, 151, 250, 0.61);
   top: -25px;
 }
 .search-icon2 {
   position: relative;
   width: 14px;
-  right: 490px;
+  right: 500px;
   height: 20px;
   z-index: 100;
   top: 5px;
@@ -131,11 +131,23 @@ input:focus {
     display: flex;
     flex-direction: row;
     position: relative;
-    width: 20px;
-    left: 490px;
-    height: 20px;
+    left: 470px;
     top: -30px;
 }
-
+ .mic-wrap, .camera-wrap{
+    margin-right: 20px;
+}
+.fa-search{
+     color: rgba(45, 151, 250, 0.61);
+     font-size: 20px;
+}
+.fa-camera{
+    color: rgb(141, 141, 141);
+    font-size: 20px;
+}
+.mic-wrap .fa-microphone{
+     color: rgba(45, 151, 250, 0.61);
+     font-size: 20px;
+}
 /*index.html3 styles
 -------------------------------------------*/
