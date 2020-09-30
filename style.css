@@ -1,11 +1,11 @@
 /*Global styles
 -------------------------------------------*/
-nav {
+.nav-links1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-nav a {
+.nav-links1 a {
   text-decoration: none;
   color: black;
   padding-right: 15px;
@@ -31,8 +31,8 @@ nav a {
 input:focus {
   outline: none;
 }
-.fa-microphone{
-    color: rgb(141, 141, 141);
+.fa-microphone {
+  color: rgb(141, 141, 141);
 }
 /*index.html styles
 -------------------------------------------*/
@@ -51,14 +51,13 @@ input:focus {
   margin-top: 30px;
 }
 
-.mic-icon1{
+.mic-icon1 {
   position: relative;
   width: 12px;
   left: 490px;
   height: 20px;
   z-index: 100;
   top: -30px;
-  
 }
 .search-button {
   color: grey;
@@ -127,27 +126,64 @@ input:focus {
   top: 5px;
   color: gainsboro;
 }
-.icons{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 470px;
-    top: -30px;
+.icons {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 470px;
+  top: -30px;
 }
- .mic-wrap, .camera-wrap{
-    margin-right: 20px;
+.mic-wrap,
+.camera-wrap {
+  margin-right: 20px;
 }
-.fa-search{
-     color: rgba(45, 151, 250, 0.61);
-     font-size: 20px;
+.fa-search {
+  color: rgba(45, 151, 250, 0.61);
+  font-size: 20px;
 }
-.fa-camera{
-    color: rgb(141, 141, 141);
-    font-size: 20px;
+.fa-camera {
+  color: rgb(141, 141, 141);
+  font-size: 20px;
 }
-.mic-wrap .fa-microphone{
-     color: rgba(45, 151, 250, 0.61);
-     font-size: 20px;
+.mic-wrap .fa-microphone {
+  color: rgba(45, 151, 250, 0.61);
+  font-size: 20px;
 }
 /*index.html3 styles
 -------------------------------------------*/
+.nav-links2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  margin: 0;
+}
+.nav2{
+    background-color: #f1f1f1;
+   
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  position:relative;
+  left: 840px;
+  top: -30px;
+  font-size: 13px;
+}
+nav img{
+    width: 90px;
+    margin: 10px;
+}
+h3{
+    color: rgb(202, 44, 44);
+    margin-left: 3%;
+    font-size: 20px;
+}
+.h3-div{
+    border-bottom: solid 1px rgb(228, 228, 228);;
+}
+.input-wrap{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}

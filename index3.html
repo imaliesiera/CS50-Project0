@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="style.css" />
-        <style>
+  <head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
       @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
     </style>
-    </head>
-    <nav>
-         <a class="nav-link" href="./index.html"
-            >Google Search</a
-          >
-          <a class="nav-link" href="./index2.html">Google Image Search</a>
-          
-    </nav>
-    <body>
-        <div class="content-wrapper">
-            <div>
-                <img src="./images/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
-            </div>
-            <form action="https://www.google.com/advanced_search"">
-                <div>
-                    <input type="text" name="q" class="search-bar" >
-                </div>
-                <div>
-                    <input type="submit" value="Google Advanced Search">
-                </div>
-            </form>
+  </head>
+  <nav class="nav2">
+    <img
+      src="./images/googlelogo_color_272x92dp.png"
+      alt="logo"
+      class="google-logo2"
+    />
+    <a class="nav-link2" href="./index.html">Google Search</a>
+    <a class="nav-link2" href="./index2.html">Google Image Search</a>
+  </nav>
+  <body>
+    <div class="h3-div">
+      <h3>Advanced Search</h3>
+    </div>
+    <div class="content-wrap">
+      <h4>Find pages with...</h4>
+      <div class="input-wrap">
+        <div class="label">
+          <form method="GET" action="https://www.google.com/advanced_search">
+            all these words
+          </form>
         </div>
-    </body>
+        <div class="input-value">
+          <input type="text" name="q" autocomplete="off" />
+        </div>
+        <div>
+            Type the important words: tri-colour rat terrier
+        </div>
+      </div>
+      <div class="input-wrap">
+        <div class="label">
+          <form method="GET" action="https://www.google.com/advanced_search">
+            this exact word or phrase
+          </form>
+        </div>
+        <div class="input-value">
+          <input type="text" name="q" autocomplete="off" />
+        </div>
+        <div>
+            Put exact words in quotes: "rat terrier"
+        </div>
+      </div>
+      <div class="input-wrap">
+        <div class="label">
+          <form method="GET" action="https://www.google.com/advanced_search">
+            any of these words
+          </form>
+        </div>
+        <div class="input-value">
+          <input type="text" name="q" autocomplete="off" />
+        </div>
+        <div>
+            Type OR between all the words you want: miniature OR standard
+        </div>
+      </div>
+      <div class="input-wrap">
+        <div class="label">
+          <form method="GET" action="https://www.google.com/advanced_search">
+            none of these words
+          </form>
+        </div>
+        <div class="input-value">
+          <input type="text" name="q" autocomplete="off" />
+        </div>
+         <div>
+            Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
