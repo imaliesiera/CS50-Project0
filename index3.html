@@ -21,59 +21,46 @@
       <h3>Advanced Search</h3>
     </div>
     <div class="content-wrap">
-      <h4>Find pages with...</h4>
-      <div class="input-wrap">
-        <div class="label">
-          <form method="GET" action="https://www.google.com/advanced_search">
-            all these words
-          </form>
-        </div>
-        <div class="input-value">
-          <input type="text" name="q" autocomplete="off" />
-        </div>
-        <div>
-            Type the important words: tri-colour rat terrier
-        </div>
-      </div>
-      <div class="input-wrap">
-        <div class="label">
-          <form method="GET" action="https://www.google.com/advanced_search">
-            this exact word or phrase
-          </form>
-        </div>
-        <div class="input-value">
-          <input type="text" name="q" autocomplete="off" />
-        </div>
-        <div>
-            Put exact words in quotes: "rat terrier"
-        </div>
-      </div>
-      <div class="input-wrap">
-        <div class="label">
-          <form method="GET" action="https://www.google.com/advanced_search">
-            any of these words
-          </form>
-        </div>
-        <div class="input-value">
-          <input type="text" name="q" autocomplete="off" />
-        </div>
-        <div>
-            Type OR between all the words you want: miniature OR standard
-        </div>
-      </div>
-      <div class="input-wrap">
-        <div class="label">
-          <form method="GET" action="https://www.google.com/advanced_search">
-            none of these words
-          </form>
-        </div>
-        <div class="input-value">
-          <input type="text" name="q" autocomplete="off" />
-        </div>
-         <div>
-            Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
-        </div>
-      </div>
+      <table>
+        <th>Find pages with...</th>
+        <th></th>
+        <th>To do this in the search box.</th>
+        <tr>
+          <td>all these words</td>
+          <td>
+            <form method="GET" action="https://www.google.com/advanced_search">
+              <input type="text" name="q" autocomplete="off" class=/>
+            </form>
+          </td>
+          <td>Type the important words: tri-colour rat terrier</td>
+        </tr>
+        <tr>
+          <td>this exact word or phrase</td>
+          <td>
+            <form method="GET" action="https://www.google.com/advanced_search">
+              <input type="text" name="q" autocomplete="off" />
+            </form>
+          </td>
+          <td>Put exact words in quotes: "rat terrier"</td>
+        </tr>
+        <tr>
+          <td>any of these words</td>
+          <td>
+            <input type="text" name="q" autocomplete="off" />
+          </td>
+          <td>Type OR between all the words you want: miniature OR standard</td>
+        </tr>
+        <tr>
+          <td>none of these words</td>
+          <td>
+            <input type="text" name="q" autocomplete="off" />
+          </td>
+          <td>
+            Put a minus sign just before words that you don't want: -rodent,
+            -"Jack Russell"
+          </td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
