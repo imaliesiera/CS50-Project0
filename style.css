@@ -151,12 +151,13 @@ input:focus {
 }
 /*index.html3 styles
 -------------------------------------------*/
-
+.third-body{
+    margin: 0 auto;
+}
 .nav-links2 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  position: relative;
   margin: 0;
 }
 .nav2{
@@ -166,9 +167,9 @@ input:focus {
 nav a{
   text-decoration: none;
   color: black;
-  position:relative;
-  left: 840px;
-  top: -30px;
+  position: relative;;
+  left: 70%;
+  bottom: 20px;
   font-size: 13px;
 }
 nav img{
@@ -213,4 +214,16 @@ td{
 span{
     font-family: 'Cutive Mono', monospace;
     font-size: 14px;
+}
+/*Respponsive Designs
+-------------------------------------------*/
+@media screen and (max-width: 914px) {
+  .third-column, .third-heading{
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 914px) {
+
+  }
 }
