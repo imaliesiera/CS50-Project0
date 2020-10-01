@@ -151,6 +151,7 @@ input:focus {
 }
 /*index.html3 styles
 -------------------------------------------*/
+
 .nav-links2 {
   display: flex;
   flex-direction: row;
@@ -190,8 +191,8 @@ table{
 }
 .table-input{
     width: 550px;
-    line-height: 20px;
-    
+    line-height: 25px;
+     border: solid 1px rgb(196, 190, 190);
 }
 .third-column{
     font-size: 10px;
@@ -208,4 +209,8 @@ th{
 }
 td{
     padding-bottom: 15px;
+}
+span{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 14px;
 }
