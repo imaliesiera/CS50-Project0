@@ -28,17 +28,34 @@
         <tr>
           <td class="first-column">all these words</td>
           <td>
-            <form method="GET" action="https://www.google.com/advanced_search">
-              <input type="text" name="q" autofocus="autofocus" autocomplete="off" class="table-input"/>
+            <form method="GET" action="https://google.com/search">
+              <input
+                type="text"
+                name="q"
+                autofocus="autofocus"
+                autocomplete="off"
+                class="table-input"
+              />
             </form>
           </td>
-          <td class="third-column">Type the important words: tri-colour rat terrier</td>
+          <td class="third-column">
+            Type the important words: tri-colour rat terrier
+          </td>
         </tr>
         <tr>
           <td class="first-column">this exact word or phrase</td>
           <td>
-            <form method="GET" action="https://www.google.com/advanced_search">
-              <input type="text" name="q" autofocus="autofocus" autocomplete="off"  class="table-input"/>
+            <form
+             method="GET"
+              action="https://www.google.com/search?as_q=&as_epq"
+            >
+              <input
+                type="text"
+                name="q"
+                autofocus="autofocus"
+                autocomplete="off"
+                class="table-input"
+              />
             </form>
           </td>
           <td class="third-column">Put exact words in quotes: "rat terrier"</td>
@@ -46,14 +63,38 @@
         <tr>
           <td class="first-column">any of these words</td>
           <td>
-            <input type="text" name="q" autofocus="autofocus" autocomplete="off" class="table-input" />
+            <form
+              method="GET"
+              action="https://www.google.com/search?as_q=&as_epq"
+            >
+              <input
+                type="text"
+                name="as_oq"
+                autofocus="autofocus"
+                autocomplete="off"
+                class="table-input"
+              />
+            </form>
           </td>
-          <td class="third-column">Type OR between all the words you want: miniature OR standard</td>
+          <td class="third-column">
+            Type OR between all the words you want: miniature OR standard
+          </td>
         </tr>
         <tr>
           <td class="first-column">none of these words</td>
           <td>
-            <input type="text" name="q" autofocus="autofocus"  autocomplete="off" class="table-input" />
+            <form
+              method="GET"
+              action="https://www.google.com/search?as_q=&as_epq=&as_oq=&as_eq"
+            >
+              <input
+                type="text"
+                name="as_eq"
+                autofocus="autofocus"
+                autocomplete="off"
+                class="table-input"
+              />
+            </form>
           </td>
           <td class="third-column">
             Put a minus sign just before words that you don't want: -rodent,
