@@ -1,11 +1,11 @@
 /*Global styles
 -------------------------------------------*/
-.nav-links1 {
+.nav-links {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-.nav-links1 a {
+.nav-links a {
   text-decoration: none;
   color: black;
   padding-right: 15px;
@@ -36,6 +36,9 @@ input:focus {
 }
 /*index.html styles
 -------------------------------------------*/
+.first-body{
+    margin: 0 auto;
+}
 .search-bar {
   border-radius: 30px;
   width: 400px;
@@ -89,7 +92,7 @@ input:focus {
   border: solid 1px rgb(212, 212, 212);
   line-height: 3;
   align-items: center;
-  padding: 0 30px 0 30px;
+  padding: 0 40px 0 0px;
   margin-left: 50px;
 }
 .logo-name {
@@ -101,7 +104,7 @@ input:focus {
 .search-icon2 {
   position: relative;
   width: 14px;
-  right: 500px;
+  right: 85%;
   height: 20px;
   z-index: 100;
   top: 5px;
@@ -130,8 +133,11 @@ input:focus {
   display: flex;
   flex-direction: row;
   position: relative;
-  left: 470px;
+  
   top: -30px;
+  margin: 0 auto;
+  margin-right: 0;
+  left: 75%;
 }
 .mic-wrap,
 .camera-wrap {
@@ -164,7 +170,7 @@ input:focus {
     background-color: #f1f1f1;
    
 }
-nav a{
+.nav2 a{
   text-decoration: none;
   color: black;
   position: relative;;
@@ -172,7 +178,7 @@ nav a{
   bottom: 20px;
   font-size: 13px;
 }
-nav img{
+.nav2 img{
     width: 90px;
     margin: 10px;
 }
@@ -224,6 +230,17 @@ span{
 }
 
 @media screen and (max-width: 914px) {
-
+.search-bar {
+  border-radius: 30px;
+  width: 200px;
   }
+  
+  .mic-icon1 {
+  position: relative;
+  width: 12px;
+  left: 290px;
+  height: 20px;
+  z-index: 100;
+  top: -30px;
+}
 }
