@@ -179,7 +179,7 @@ input:focus {
   font-size: 13px;
 }
 .nav2 img{
-    width: 90px;
+    width: 91px;
     margin: 10px;
 }
 .content-wrap2{
@@ -228,7 +228,6 @@ span{
     visibility: hidden;
   }
 }
-
 @media screen and (max-width: 914px) {
 .search-bar {
   border-radius: 30px;
